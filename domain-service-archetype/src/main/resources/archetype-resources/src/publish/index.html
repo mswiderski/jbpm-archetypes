@@ -1,0 +1,29 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+<html>
+<body>
+<H2> <IMG src="icon.png"/></H2>
+#{HEADER}<BR/>
+
+
+<H3>Parameters</H3>
+<table border="1" cellpadding="3" ><tbody>
+<tr><td><B>#{PARAMETER_NAME}</B></td><td>#{PARAMETER_TYPE}</td><td>#{PARAMETER_DESCRIPTION}</td></tr>
+
+</tbody></table>
+</body>
+
+<H3>Results</H3>
+
+<H3>Handler</H3>
+<TT>${package}.${service}WorkItemHandler</TT>
+<P/>
+#{DESCRIPTION OF THE SERVICE}
+<P/>
+#{ADDITIONAL COMMENTS}
+<P/>
+You will get an exception if you do not configure your handler, like:<BR/>
+<TT>#{ERROR/EXCEPTION CONDITIONS}</TT>
+
+</html>

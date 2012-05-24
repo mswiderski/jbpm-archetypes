@@ -1,0 +1,23 @@
+import org.drools.process.core.datatype.impl.type.StringDataType;
+
+[
+
+  [
+    "name" : "${service}",
+    "description" : "",
+    "version" : "1.0",
+    "parameters" : [
+    	"param" : new StringDataType(),
+    ],
+    "displayName" : "${service}",
+    "icon" : "",
+    "category" : "",
+    "eclipse:customEditor" : "org.drools.eclipse.flow.common.editor.editpart.work.SampleCustomEditor",
+    "defaultHandler" : "${package}.${service}WorkItemHandler",
+    "documentation" : "index.html",
+    "dependencies" : [ 
+      ${classpath}","file:./lib/${artifactId}-${version}.jar"
+    ]
+  ]
+
+]
