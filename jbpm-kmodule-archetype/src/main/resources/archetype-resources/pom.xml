@@ -11,37 +11,37 @@
       <groupId>org.jbpm</groupId>
       <artifactId>jbpm-flow</artifactId>
       <scope>provided</scope>
-      <version>6.0.0.CR4</version>
+      <version>6.0.0.Final</version>
     </dependency>
     <dependency>
       <groupId>org.jbpm</groupId>
       <artifactId>jbpm-flow-builder</artifactId>
       <scope>provided</scope>
-      <version>6.0.0.CR4</version>
+      <version>6.0.0.Final</version>
     </dependency>
     <dependency>
       <groupId>org.jbpm</groupId>
       <artifactId>jbpm-bpmn2</artifactId>
       <scope>provided</scope>
-      <version>6.0.0.CR4</version>
+      <version>6.0.0.Final</version>
     </dependency>
     <dependency>
       <groupId>org.jbpm</groupId>
       <artifactId>jbpm-persistence-jpa</artifactId>
       <scope>provided</scope>
-      <version>6.0.0.CR4</version>
+      <version>6.0.0.Final</version>
     </dependency>
     <dependency>
       <groupId>org.jbpm</groupId>
       <artifactId>jbpm-human-task-core</artifactId>
       <scope>provided</scope>
-      <version>6.0.0.CR4</version>
+      <version>6.0.0.Final</version>
     </dependency>
     <dependency>
       <groupId>org.jbpm</groupId>
       <artifactId>jbpm-runtime-manager</artifactId>
       <scope>provided</scope>
-      <version>6.0.0.CR4</version>
+      <version>6.0.0.Final</version>
     </dependency>
 
     <!-- extras -->
@@ -57,14 +57,14 @@
       <groupId>org.jbpm</groupId>
       <artifactId>jbpm-test</artifactId>
       <scope>test</scope>
-      <version>6.0.0.CR4</version>
+      <version>6.0.0.Final</version>
     </dependency>
     <dependency>
       <groupId>org.jbpm</groupId>
       <artifactId>jbpm-shared-services</artifactId>
       <classifier>btm</classifier>
       <scope>test</scope>
-      <version>6.0.0.CR4</version>
+      <version>6.0.0.Final</version>
     </dependency>
     <dependency>
       <groupId>ch.qos.logback</groupId>

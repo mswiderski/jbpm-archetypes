@@ -8,8 +8,8 @@
   <name>jBPM6 :: sample application</name>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <drools.version>6.0.0.CR4</drools.version>
-    <jbpm.version>6.0.0.CR4</jbpm.version>
+    <drools.version>6.0.0.Final</drools.version>
+    <jbpm.version>6.0.0.Final</jbpm.version>
     <hibernate.version>4.2.0.Final</hibernate.version>
     <hibernate.core.version>4.2.0.Final</hibernate.core.version>
     <slf4j.version>1.6.4</slf4j.version>
